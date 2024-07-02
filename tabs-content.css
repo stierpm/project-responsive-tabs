@@ -1,0 +1,14 @@
+.c-tabs-content .c-tabs-content__navigation {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .c-tabs-content .c-tabs-content__navigation {
+    display: flex;
+  }
+}
+.c-tabs-content .c-tabs-content__group .c-tabs-content__content {
+  display: none;
+}
+.c-tabs-content .c-tabs-content__group.expanded .c-tabs-content__content {
+  display: block;
+}
